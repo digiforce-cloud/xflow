@@ -1,5 +1,16 @@
 # @antv/xflow-extension
 
+## 1.0.49
+
+### Patch Changes
+
+- 706c98dc: bump version
+- 706c98dc: chore: update npmrc config
+- Updated dependencies [706c98dc]
+- Updated dependencies [706c98dc]
+  - @antv/xflow-core@1.0.49
+  - @antv/xflow-hook@1.0.49
+
 ## 1.0.48
 
 ### Patch Changes
