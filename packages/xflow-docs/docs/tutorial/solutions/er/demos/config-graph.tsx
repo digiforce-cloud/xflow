@@ -1,4 +1,4 @@
-import { createGraphConfig } from '@antv/xflow'
+import { createGraphConfig } from '@digiforce-cloud/xflow'
 
 export const useGraphConfig = createGraphConfig(config => {
   /** 预设XFlow画布配置项 */

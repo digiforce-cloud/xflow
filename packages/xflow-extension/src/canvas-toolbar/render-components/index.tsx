@@ -2,10 +2,14 @@ import React from 'react'
 import { Spin } from 'antd'
 import classnames from 'classnames'
 // xflow
-import type { IToolbarOptions, IToolbarLayout, IToolbarGroupOptions } from '@antv/xflow-core'
-import { usePositionStyle } from '@antv/xflow-core'
+import type {
+  IToolbarOptions,
+  IToolbarLayout,
+  IToolbarGroupOptions,
+} from '@digiforce-cloud/xflow-core'
+import { usePositionStyle } from '@digiforce-cloud/xflow-core'
 // component
-import { Toolbar } from '@antv/x6-react-components'
+import { Toolbar } from '@digiforce-cloud/x6-react-components'
 import { ToolbarGroup } from './toolbar-group'
 import { useToolbarModel } from '../service'
 import type { IToolbarProps } from '../interface'

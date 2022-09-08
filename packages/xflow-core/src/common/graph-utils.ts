@@ -1,4 +1,4 @@
-import type { Cell, Node, Edge } from '@antv/x6'
+import type { Cell, Node, Edge } from '@digiforce-cloud/x6'
 import type { NsGraph } from '../interface'
 
 export const node2Json = (cell: Node) => {

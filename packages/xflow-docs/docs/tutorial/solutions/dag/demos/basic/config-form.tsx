@@ -1,6 +1,6 @@
-import type { NsJsonSchemaForm } from '@antv/xflow'
+import type { NsJsonSchemaForm } from '@digiforce-cloud/xflow'
 import { controlMapService, ControlShapeEnum } from './form-controls'
-import { MODELS } from '@antv/xflow'
+import { MODELS } from '@digiforce-cloud/xflow'
 
 export function delay(ms: number) {
   return new Promise(resolve => setTimeout(() => resolve(true), ms))

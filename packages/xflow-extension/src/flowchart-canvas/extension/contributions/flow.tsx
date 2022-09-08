@@ -1,12 +1,12 @@
-import type { ICmdHooks } from '@antv/xflow-core'
+import type { ICmdHooks } from '@digiforce-cloud/xflow-core'
 import { singleton } from 'mana-syringe'
 import {
   DisposableCollection,
   Disposable,
   XFlowEdgeCommands,
   XFlowNodeCommands,
-} from '@antv/xflow-core'
-import { IHookContribution } from '@antv/xflow-core'
+} from '@digiforce-cloud/xflow-core'
+import { IHookContribution } from '@digiforce-cloud/xflow-core'
 import { NsAddEdgeEvent } from '../../config-graph'
 import { getProps } from '../../utils'
 

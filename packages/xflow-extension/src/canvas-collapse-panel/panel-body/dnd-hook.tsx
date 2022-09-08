@@ -1,8 +1,8 @@
 import React from 'react'
-import type { Graph } from '@antv/x6'
-import { useXFlowApp, getNodeReactComponent } from '@antv/xflow-core'
-import type { IGraphConfig } from '@antv/xflow-core'
-import { Addon } from '@antv/x6'
+import type { Graph } from '@digiforce-cloud/x6'
+import { useXFlowApp, getNodeReactComponent } from '@digiforce-cloud/xflow-core'
+import type { IGraphConfig } from '@digiforce-cloud/xflow-core'
+import { Addon } from '@digiforce-cloud/x6'
 import { XFlowNode } from '../../canvas-dag-extension/x6-extension/node'
 import type {
   IProps,

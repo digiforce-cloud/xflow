@@ -1,4 +1,4 @@
-import { Graph, Path, Registry, Shape } from '@antv/x6'
+import { Graph, Path, Registry, Shape } from '@digiforce-cloud/x6'
 import { EDGE_PATH_TYPE, XFLOW_SHAPE } from '../constants'
 
 if (!Registry.Connector.registry.exist(EDGE_PATH_TYPE.VERTICAL_NODE)) {

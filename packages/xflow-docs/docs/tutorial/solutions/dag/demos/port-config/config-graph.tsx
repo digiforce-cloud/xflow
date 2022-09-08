@@ -1,11 +1,11 @@
 import type { IProps } from './index'
-import type { NsNodeCmd } from '@antv/xflow'
-import { NsGraph, XFlowNodeCommands } from '@antv/xflow'
-import { createHookConfig, DisposableCollection } from '@antv/xflow'
+import type { NsNodeCmd } from '@digiforce-cloud/xflow'
+import { NsGraph, XFlowNodeCommands } from '@digiforce-cloud/xflow'
+import { createHookConfig, DisposableCollection } from '@digiforce-cloud/xflow'
 import { DND_RENDER_ID, GROUP_NODE_RENDER_ID } from './constant'
 import { AlgoNode } from './react-node/algo-node'
 import { GroupNode } from './react-node/group'
-import type { Graph } from '@antv/x6'
+import type { Graph } from '@digiforce-cloud/x6'
 
 export const useGraphHookConfig = createHookConfig<IProps>((config, proxy) => {
   // 获取 Props

@@ -1,11 +1,11 @@
-import type { NsNodeCmd, NsEdgeCmd, NsGraphCmd } from '@antv/xflow'
+import type { NsNodeCmd, NsEdgeCmd, NsGraphCmd } from '@digiforce-cloud/xflow'
 import {
   createKeybindingConfig,
   XFlowNodeCommands,
   XFlowEdgeCommands,
   MODELS,
   XFlowGraphCommands,
-} from '@antv/xflow'
+} from '@digiforce-cloud/xflow'
 
 export const useKeybindingConfig = createKeybindingConfig(config => {
   config.setKeybindingFunc(regsitry => {

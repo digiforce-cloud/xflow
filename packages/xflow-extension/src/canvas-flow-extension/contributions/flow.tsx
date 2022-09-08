@@ -1,9 +1,9 @@
-import type { Graph } from '@antv/x6'
-import type { ICmdHooks, NsEdgeCmd, NsNodeCmd } from '@antv/xflow-core'
-import { ManaSyringe, DisposableCollection, Disposable } from '@antv/xflow-core'
-import { IHookContribution } from '@antv/xflow-core'
+import type { Graph } from '@digiforce-cloud/x6'
+import type { ICmdHooks, NsEdgeCmd, NsNodeCmd } from '@digiforce-cloud/xflow-core'
+import { ManaSyringe, DisposableCollection, Disposable } from '@digiforce-cloud/xflow-core'
+import { IHookContribution } from '@digiforce-cloud/xflow-core'
 import { XFlowNode } from '../x6-extension/node'
-import { Shape } from '@antv/x6'
+import { Shape } from '@digiforce-cloud/x6'
 
 export const flowOptions: Graph.Options = {
   grid: true,

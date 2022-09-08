@@ -1,6 +1,6 @@
 import React from 'react'
 import { Syringe } from 'mana-syringe'
-import type { Graph as X6Graph } from '@antv/x6'
+import type { Graph as X6Graph } from '@digiforce-cloud/x6'
 import { Deferred } from '../../common/deferred'
 import type { NsGraph } from '../../interface'
 import {

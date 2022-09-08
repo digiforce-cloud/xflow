@@ -6,7 +6,7 @@
  *  可以通过 targetType 属性来支持更多元素的选中时更新表单：'edge','group' <br>
  */
 import React from 'react'
-import type { NsNodeCmd, NsEdgeCmd, NsGraph } from '@antv/xflow'
+import type { NsNodeCmd, NsEdgeCmd, NsGraph } from '@digiforce-cloud/xflow'
 import {
   XFlow,
   XFlowCanvas,
@@ -15,10 +15,10 @@ import {
   NsJsonSchemaForm,
   XFlowNodeCommands,
   XFlowEdgeCommands,
-} from '@antv/xflow'
+} from '@digiforce-cloud/xflow'
 import { set } from 'lodash'
 import { onLoad } from './graph-config'
-import '@antv/xflow/dist/index.css'
+import '@digiforce-cloud/xflow/dist/index.css'
 import './index.less'
 
 /**  Demo Props  */

@@ -1,11 +1,11 @@
-import type { Graph } from '@antv/x6'
+import type { Graph } from '@digiforce-cloud/x6'
 import type { NsGraph } from '../interface'
 import type { Disposable } from '../common/disposable'
 import type { IGraphCommandService } from '../command/interface'
 import type { IModelService } from '../model-service/interface'
-import { HookHub } from '@antv/xflow-hook'
+import { HookHub } from '@digiforce-cloud/xflow-hook'
 import { Syringe } from 'mana-syringe'
-import type { EventArgs } from '@antv/x6/es/graph/events'
+import type { EventArgs } from '@digiforce-cloud/x6/es/graph/events'
 import type { IGraphConfig } from '../xflow-main/graph/config'
 export interface IRegisterHookFn<T = IHooks> {
   (hooks: T): Disposable
@@ -53,7 +53,7 @@ export type IEventSubscription = Disposable[]
 export interface IGeneralAppService {
   graph: Graph
   commandService: IGraphCommandService
-  modelService: IModelService,
+  modelService: IModelService
   options: IGraphConfig
 }
 

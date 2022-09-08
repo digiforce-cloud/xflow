@@ -1,5 +1,5 @@
-import type { NsNodeCmd, IGraphCommandService, NsGraph } from '@antv/xflow'
-import { XFlowNodeCommands, uuidv4 } from '@antv/xflow'
+import type { NsNodeCmd, IGraphCommandService, NsGraph } from '@digiforce-cloud/xflow'
+import { XFlowNodeCommands, uuidv4 } from '@digiforce-cloud/xflow'
 
 export const addNode = (cmd: IGraphCommandService, nodeConfig: NsGraph.INodeConfig) => {
   return cmd.executeCommand<NsNodeCmd.AddNode.IArgs>(XFlowNodeCommands.ADD_NODE.id, {

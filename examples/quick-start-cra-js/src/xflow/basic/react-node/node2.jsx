@@ -1,5 +1,5 @@
 import React from 'react'
-import { useAppContext } from '@antv/xflow'
+import { useAppContext } from '@digiforce-cloud/xflow'
 import './node2.less'
 
 const Node2 = props => {

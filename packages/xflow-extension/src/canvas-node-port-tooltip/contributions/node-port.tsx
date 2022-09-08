@@ -1,11 +1,11 @@
-import type { Graph } from '@antv/x6'
-import type { NsGraph, IModelService } from '@antv/xflow-core'
-import type { ICmdHooks } from '@antv/xflow-core'
+import type { Graph } from '@digiforce-cloud/x6'
+import type { NsGraph, IModelService } from '@digiforce-cloud/xflow-core'
+import type { ICmdHooks } from '@digiforce-cloud/xflow-core'
 import classnames from 'classnames'
-import { IHookContribution, ManaSyringe } from '@antv/xflow-core'
-import { IGraphProvider } from '@antv/xflow-core'
+import { IHookContribution, ManaSyringe } from '@digiforce-cloud/xflow-core'
+import { IGraphProvider } from '@digiforce-cloud/xflow-core'
 import { ACTIVE_NODE_PORT, NsPortEvent } from '../interface'
-import { DisposableCollection, IModelContribution, Disposable } from '@antv/xflow-core'
+import { DisposableCollection, IModelContribution, Disposable } from '@digiforce-cloud/xflow-core'
 
 /**
  * 内置的hook contribution
@@ -13,7 +13,8 @@ import { DisposableCollection, IModelContribution, Disposable } from '@antv/xflo
  */
 @ManaSyringe.singleton({ contrib: [IHookContribution, IModelContribution] })
 export class NodePortTooltipContribution
-  implements IHookContribution<ICmdHooks>, IModelContribution {
+  implements IHookContribution<ICmdHooks>, IModelContribution
+{
   toDispose = new DisposableCollection()
 
   @ManaSyringe.inject(IGraphProvider)

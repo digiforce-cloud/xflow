@@ -1,4 +1,4 @@
-import type { HookHub } from '@antv/xflow-hook'
+import type { HookHub } from '@digiforce-cloud/xflow-hook'
 import type { NsGraph } from '../../interface'
 import type { IHooks } from '../../hooks/interface'
 import type { IArgsBase } from '../../command/interface'
@@ -8,7 +8,7 @@ import { XFlowGraphCommands } from '../constant'
 import { Disposable } from '../../common/disposable'
 import { cellsToJson } from '../../common/graph-utils'
 import { LOCAL_STORAGE_KEY } from '../../constants'
-import type { Cell } from '@antv/x6'
+import type { Cell } from '@digiforce-cloud/x6'
 
 type ICommand = ICommandHandler<
   NsGraphCopySelection.IArgs,

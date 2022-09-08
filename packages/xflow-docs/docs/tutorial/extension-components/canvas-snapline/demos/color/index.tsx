@@ -3,17 +3,17 @@
  * desc: 使用color属性配置不同的对齐线颜色
  */
 import React from 'react'
-import type { IAppLoad, NsGraphCmd } from '@antv/xflow'
+import type { IAppLoad, NsGraphCmd } from '@digiforce-cloud/xflow'
 import {
   XFlow,
   XFlowCanvas,
   CanvasSnapline,
   XFlowGraphCommands,
   createGraphConfig,
-} from '@antv/xflow'
+} from '@digiforce-cloud/xflow'
 import { getGraphData } from './mock'
 import './index.less'
-import '@antv/xflow/dist/index.css'
+import '@digiforce-cloud/xflow/dist/index.css'
 /**  Demo Props  */
 export interface IDemoProps {
   anything: string

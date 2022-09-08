@@ -1,4 +1,4 @@
-import type { NsGraph } from '@antv/xflow-core'
+import type { NsGraph } from '@digiforce-cloud/xflow-core'
 import type React from 'react'
 import type { IProps as TreeNodeProps, ITreeDataService } from '../canvas-node-tree-panel/interface'
 import { INodeFactoryArgs } from '../canvas-node-tree-panel/interface'

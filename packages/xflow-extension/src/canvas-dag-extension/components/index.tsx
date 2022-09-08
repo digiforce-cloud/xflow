@@ -1,7 +1,7 @@
 import React from 'react'
 import { createDagExtensionModule } from '../module'
-import type { IModuleConfig } from '@antv/xflow-core'
-import { useExtensionRegistry, XFlowAppExtensionModule } from '@antv/xflow-core'
+import type { IModuleConfig } from '@digiforce-cloud/xflow-core'
+import { useExtensionRegistry, XFlowAppExtensionModule } from '@digiforce-cloud/xflow-core'
 import type { IProps } from '../interface'
 
 export const DagGraphExtension: React.FC<IProps> = props => {

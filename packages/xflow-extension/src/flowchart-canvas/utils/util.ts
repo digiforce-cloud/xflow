@@ -1,5 +1,5 @@
-import type { IApplication } from '@antv/xflow-core'
-import type { Graph } from '@antv/x6'
+import type { IApplication } from '@digiforce-cloud/xflow-core'
+import type { Graph } from '@digiforce-cloud/x6'
 import { debounce } from 'lodash'
 
 // 解决配置共享问题

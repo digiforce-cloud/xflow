@@ -1,9 +1,9 @@
 import React from 'react'
 import classnames from 'classnames'
-import { Toolbar } from '@antv/x6-react-components'
-import { useXFlowApp } from '@antv/xflow-core'
-import { IconStore } from '@antv/xflow-core'
-import type { IToolbarItemOptions, IToolbarLayout } from '@antv/xflow-core'
+import { Toolbar } from '@digiforce-cloud/x6-react-components'
+import { useXFlowApp } from '@digiforce-cloud/xflow-core'
+import { IconStore } from '@digiforce-cloud/xflow-core'
+import type { IToolbarItemOptions, IToolbarLayout } from '@digiforce-cloud/xflow-core'
 
 export interface IProps {
   item: IToolbarItemOptions

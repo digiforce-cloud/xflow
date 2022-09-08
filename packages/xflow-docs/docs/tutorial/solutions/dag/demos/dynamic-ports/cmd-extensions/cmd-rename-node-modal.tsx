@@ -1,11 +1,11 @@
 import React from 'react'
-import type { HookHub, ICmdHooks as IHooks, NsGraph, IModelService } from '@antv/xflow'
-import { Deferred, ManaSyringe } from '@antv/xflow'
+import type { HookHub, ICmdHooks as IHooks, NsGraph, IModelService } from '@digiforce-cloud/xflow'
+import { Deferred, ManaSyringe } from '@digiforce-cloud/xflow'
 import type { FormInstance } from 'antd'
 import { Modal, Form, Input, ConfigProvider } from 'antd'
 
-import type { IArgsBase, ICommandHandler, IGraphCommandService } from '@antv/xflow'
-import { ICommandContextProvider } from '@antv/xflow'
+import type { IArgsBase, ICommandHandler, IGraphCommandService } from '@digiforce-cloud/xflow'
+import { ICommandContextProvider } from '@digiforce-cloud/xflow'
 
 import { CustomCommands } from './constants'
 

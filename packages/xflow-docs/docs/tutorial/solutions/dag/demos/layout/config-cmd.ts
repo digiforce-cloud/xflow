@@ -1,7 +1,7 @@
-import type { NsGraphCmd } from '@antv/xflow'
-import { createCmdConfig, DisposableCollection, XFlowGraphCommands } from '@antv/xflow'
-import type { IApplication } from '@antv/xflow'
-import type { IGraphPipelineCommand } from '@antv/xflow'
+import type { NsGraphCmd } from '@digiforce-cloud/xflow'
+import { createCmdConfig, DisposableCollection, XFlowGraphCommands } from '@digiforce-cloud/xflow'
+import type { IApplication } from '@digiforce-cloud/xflow'
+import type { IGraphPipelineCommand } from '@digiforce-cloud/xflow'
 import { MockApi } from './service'
 import { commandContributions } from './cmd-extensions'
 

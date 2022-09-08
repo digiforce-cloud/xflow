@@ -1,7 +1,7 @@
-import type { ICmdHooks as IHooks } from '@antv/xflow'
-import type { HookHub } from '@antv/xflow-hook'
-import type { IArgsBase, ICommandHandler } from '@antv/xflow'
-import { ICommandContextProvider, ManaSyringe } from '@antv/xflow'
+import type { ICmdHooks as IHooks } from '@digiforce-cloud/xflow'
+import type { HookHub } from '@digiforce-cloud/xflow-hook'
+import type { IArgsBase, ICommandHandler } from '@digiforce-cloud/xflow'
+import { ICommandContextProvider, ManaSyringe } from '@digiforce-cloud/xflow'
 import { CustomCommands } from './constants'
 
 type ICommand = ICommandHandler<NsTestCmd.IArgs, NsTestCmd.IResult, NsTestCmd.ICmdHooks>

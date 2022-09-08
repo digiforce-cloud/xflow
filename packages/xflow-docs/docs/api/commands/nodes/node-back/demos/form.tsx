@@ -1,9 +1,9 @@
 import React from 'react'
 import { Card, Form, Input, message } from 'antd'
-import type { IFormSchema } from '@antv/xflow'
-import { usePanelContext, WorkspacePanel, FormBuilder } from '@antv/xflow'
-import type { NsNodeCmd } from '@antv/xflow'
-import { XFlowNodeCommands } from '@antv/xflow'
+import type { IFormSchema } from '@digiforce-cloud/xflow'
+import { usePanelContext, WorkspacePanel, FormBuilder } from '@digiforce-cloud/xflow'
+import type { NsNodeCmd } from '@digiforce-cloud/xflow'
+import { XFlowNodeCommands } from '@digiforce-cloud/xflow'
 
 interface IFormValues {
   nodeId: string

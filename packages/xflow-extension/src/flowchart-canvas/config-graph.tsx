@@ -1,13 +1,13 @@
 import type { TooltipPlacement } from 'antd/es/tooltip'
-import type { IEvent, NsGraph } from '@antv/xflow-core'
-import type { Edge } from '@antv/x6'
+import type { IEvent, NsGraph } from '@digiforce-cloud/xflow-core'
+import type { Edge } from '@digiforce-cloud/x6'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import classnames from 'classnames'
 import { ConfigProvider, Tooltip } from 'antd'
 import merge from 'lodash/merge'
-import { createGraphConfig } from '@antv/xflow-core'
-import { Shape } from '@antv/x6'
+import { createGraphConfig } from '@digiforce-cloud/xflow-core'
+import { Shape } from '@digiforce-cloud/x6'
 import {
   NODE_HEIGHT,
   ASPECTRATIONODE,

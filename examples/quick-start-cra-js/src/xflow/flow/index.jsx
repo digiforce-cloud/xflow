@@ -23,8 +23,8 @@ import {
   CanvasSnapline,
   /** 通用组件：节点连接桩 */
   CanvasNodePortTooltip,
-} from '@antv/xflow'
-// import type { Graph } from '@antv/x6'
+} from '@digiforce-cloud/xflow'
+// import type { Graph } from '@digiforce-cloud/x6'
 /** 配置Command*/
 import { useCmdConfig } from './config-cmd'
 /** 配置Menu */
@@ -36,7 +36,7 @@ import { useKeybindingConfig } from './config-keybinding'
 /** 配置Dnd组件面板 */
 import { DndNode } from './react-node/dnd-node'
 
-import '@antv/xflow/dist/index.css'
+import '@digiforce-cloud/xflow/dist/index.css'
 
 import './index.less'
 

@@ -1,6 +1,6 @@
-import type { NsGraph } from '@antv/xflow'
+import type { NsGraph } from '@digiforce-cloud/xflow'
 import React from 'react'
-import { useAppContext } from '@antv/xflow'
+import { useAppContext } from '@digiforce-cloud/xflow'
 import './node2.less'
 
 const Node2: NsGraph.INodeRender = props => {

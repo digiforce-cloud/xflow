@@ -1,7 +1,7 @@
 import type React from 'react'
-import type { IPosition, NsGraph } from '@antv/xflow-core'
-import type { GraphConfig } from '@antv/xflow-core/es/xflow-main/graph/config'
-import type { Graph as X6Graph, Edge } from '@antv/x6'
+import type { IPosition, NsGraph } from '@digiforce-cloud/xflow-core'
+import type { GraphConfig } from '@digiforce-cloud/xflow-core/es/xflow-main/graph/config'
+import type { Graph as X6Graph, Edge } from '@digiforce-cloud/x6'
 
 export type Datum = {
   nodes?: unknown[]

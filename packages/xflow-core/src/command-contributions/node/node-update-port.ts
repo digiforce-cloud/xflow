@@ -1,9 +1,9 @@
-import type { Node as X6Node, Graph as X6Graph } from '@antv/x6'
-import type { HookHub } from '@antv/xflow-hook'
+import type { Node as X6Node, Graph as X6Graph } from '@digiforce-cloud/x6'
+import type { HookHub } from '@digiforce-cloud/xflow-hook'
 import type { NsGraph } from '../../interface'
 import type { IHooks } from '../../hooks/interface'
 import type { IArgsBase } from '../../command/interface'
-import type { PortManager } from '@antv/x6/es/model/port'
+import type { PortManager } from '@digiforce-cloud/x6/es/model/port'
 
 import { inject, injectable } from 'mana-syringe'
 import { XFlowNodeCommands } from '../constant'

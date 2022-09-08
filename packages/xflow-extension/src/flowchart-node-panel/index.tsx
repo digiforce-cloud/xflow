@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useXflowPrefixCls } from '@antv/xflow-core'
+import { useXflowPrefixCls } from '@digiforce-cloud/xflow-core'
 import { DoubleRightOutlined, DoubleLeftOutlined } from '@ant-design/icons'
 import { get } from 'lodash'
 import { WorkspacePanel } from '../base-panel'

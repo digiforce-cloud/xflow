@@ -1,6 +1,6 @@
 import React from 'react'
 import { PlusSquareOutlined, MinusSquareOutlined } from '@ant-design/icons'
-import { useXFlowApp, XFlowGroupCommands } from '@antv/xflow'
+import { useXFlowApp, XFlowGroupCommands } from '@digiforce-cloud/xflow'
 import './group.less'
 
 export const GroupNode = props => {

@@ -1,7 +1,12 @@
-import type { NsNodeCmd, NsEdgeCmd, IGraphCommandService } from '@antv/xflow'
-import { createKeybindingConfig, XFlowNodeCommands, XFlowEdgeCommands, MODELS } from '@antv/xflow'
-import type { Node as X6Node, Edge as X6Edge } from '@antv/x6'
-import { Platform } from '@antv/x6'
+import type { NsNodeCmd, NsEdgeCmd, IGraphCommandService } from '@digiforce-cloud/xflow'
+import {
+  createKeybindingConfig,
+  XFlowNodeCommands,
+  XFlowEdgeCommands,
+  MODELS,
+} from '@digiforce-cloud/xflow'
+import type { Node as X6Node, Edge as X6Edge } from '@digiforce-cloud/x6'
+import { Platform } from '@digiforce-cloud/x6'
 import { message } from 'antd'
 
 /** 快捷键 */

@@ -1,7 +1,7 @@
-import type { NsNodeCmd, IMenuOptions, MODELS, NsGraph } from '@antv/xflow'
-import { createCtxMenuConfig, MenuItemType } from '@antv/xflow'
-import {} from '@antv/xflow'
-import { IconStore, XFlowNodeCommands } from '@antv/xflow'
+import type { NsNodeCmd, IMenuOptions, MODELS, NsGraph } from '@digiforce-cloud/xflow'
+import { createCtxMenuConfig, MenuItemType } from '@digiforce-cloud/xflow'
+import {} from '@digiforce-cloud/xflow'
+import { IconStore, XFlowNodeCommands } from '@digiforce-cloud/xflow'
 import {
   DeleteOutlined,
   EditOutlined,

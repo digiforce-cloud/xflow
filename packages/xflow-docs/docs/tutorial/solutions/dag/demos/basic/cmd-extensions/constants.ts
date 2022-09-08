@@ -1,4 +1,4 @@
-import type { IGraphCommand } from '@antv/xflow'
+import type { IGraphCommand } from '@digiforce-cloud/xflow'
 
 /** 节点命令 */
 export namespace CustomCommands {

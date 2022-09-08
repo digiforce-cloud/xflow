@@ -4,9 +4,9 @@ import type {
   RxModel,
   IMenuOptions,
   DisposableCollection,
-} from '@antv/xflow-core'
-import { uuidv4 } from '@antv/xflow-core'
-import type { MODELS } from '@antv/xflow-core'
+} from '@digiforce-cloud/xflow-core'
+import { uuidv4 } from '@digiforce-cloud/xflow-core'
+import type { MODELS } from '@digiforce-cloud/xflow-core'
 import type { IMenuRenderProps } from './interface'
 
 export namespace NsContextMenu {

@@ -1,4 +1,4 @@
-import { ManaSyringe } from '@antv/xflow-core'
+import { ManaSyringe } from '@digiforce-cloud/xflow-core'
 import 'reflect-metadata'
 /** Application 扩展依赖 */
 

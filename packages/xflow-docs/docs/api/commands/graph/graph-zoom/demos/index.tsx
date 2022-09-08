@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 /** 图核心组件 & 类型定义 */
-import type { IAppLoad, NsGraph, IApplication, NsGraphCmd } from '@antv/xflow'
-import { XFlow, XFlowCanvas, createGraphConfig, XFlowGraphCommands } from '@antv/xflow'
+import type { IAppLoad, NsGraph, IApplication, NsGraphCmd } from '@digiforce-cloud/xflow'
+import { XFlow, XFlowCanvas, createGraphConfig, XFlowGraphCommands } from '@digiforce-cloud/xflow'
 import './index.less'
-import '@antv/xflow/dist/index.css'
+import '@digiforce-cloud/xflow/dist/index.css'
 
 export const useGraphConfig = createGraphConfig(config => {
   config.setX6Config({ grid: true })

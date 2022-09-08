@@ -1,6 +1,6 @@
 import React from 'react'
-import type { IAppLoad, NsNodeCmd } from '@antv/xflow'
-import { XFlow, createGraphConfig, XFlowCanvas, XFlowNodeCommands } from '@antv/xflow'
+import type { IAppLoad, NsNodeCmd } from '@digiforce-cloud/xflow'
+import { XFlow, createGraphConfig, XFlowCanvas, XFlowNodeCommands } from '@digiforce-cloud/xflow'
 import { FormPanel } from './form'
 import './index.less'
 

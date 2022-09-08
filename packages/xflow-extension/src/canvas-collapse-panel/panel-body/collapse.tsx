@@ -1,6 +1,11 @@
 import React from 'react'
-import { isReactComponent } from '@antv/xflow-core'
-import type { NsGraph, IGraphConfig, IModelService, IGraphCommandService } from '@antv/xflow-core'
+import { isReactComponent } from '@digiforce-cloud/xflow-core'
+import type {
+  NsGraph,
+  IGraphConfig,
+  IModelService,
+  IGraphCommandService,
+} from '@digiforce-cloud/xflow-core'
 import type { ICollapsePanel, IOnActiveKeyChange, IPanelNode } from '../interface'
 import { CaretRightOutlined } from '@ant-design/icons'
 import { PanelNode } from './panel-node'

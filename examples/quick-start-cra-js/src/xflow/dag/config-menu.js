@@ -1,5 +1,5 @@
-import { createCtxMenuConfig, MenuItemType } from '@antv/xflow'
-import { IconStore, XFlowNodeCommands, XFlowEdgeCommands } from '@antv/xflow'
+import { createCtxMenuConfig, MenuItemType } from '@digiforce-cloud/xflow'
+import { IconStore, XFlowNodeCommands, XFlowEdgeCommands } from '@digiforce-cloud/xflow'
 import { DeleteOutlined, EditOutlined, StopOutlined } from '@ant-design/icons'
 import { CustomCommands } from './cmd-extensions/constants'
 import { MockApi } from './service'

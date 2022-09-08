@@ -7,8 +7,8 @@ import {
   useModelAsync,
   randomInt,
   uuidv4,
-} from '@antv/xflow'
-import type { IPosition, NsNodeCmd } from '@antv/xflow'
+} from '@digiforce-cloud/xflow'
+import type { IPosition, NsNodeCmd } from '@digiforce-cloud/xflow'
 import { Card, Form, Button, Input, message } from 'antd'
 export interface IPanelProps {
   position: IPosition

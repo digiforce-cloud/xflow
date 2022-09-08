@@ -1,5 +1,10 @@
-import type { IGraphCommandService, IModelService, IPosition, NsGraph } from '@antv/xflow-core'
-import type { Cell } from '@antv/x6'
+import type {
+  IGraphCommandService,
+  IModelService,
+  IPosition,
+  NsGraph,
+} from '@digiforce-cloud/xflow-core'
+import type { Cell } from '@digiforce-cloud/x6'
 import type { NsJsonSchemaForm } from '../canvas-json-schema-form'
 
 export interface IFlowchartFormPanelProps {

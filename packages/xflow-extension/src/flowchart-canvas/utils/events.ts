@@ -1,8 +1,8 @@
-import type { IGraphCommandService } from '@antv/xflow-core'
-import { XFlowNodeCommands, XFlowEdgeCommands } from '@antv/xflow-core'
+import type { IGraphCommandService } from '@digiforce-cloud/xflow-core'
+import { XFlowNodeCommands, XFlowEdgeCommands } from '@digiforce-cloud/xflow-core'
 import { get } from 'lodash'
 import { onConfigChange, getGraphInstance } from './util'
-import type { Node } from '@antv/x6'
+import type { Node } from '@digiforce-cloud/x6'
 
 /** 节点移动时，实时更新位置信息，内置之后可去掉 */
 export const movedNode = async (e: any, cmds: IGraphCommandService) => {

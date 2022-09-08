@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@antv/xflow",
+  "name": "@digiforce-cloud/xflow",
   "version": "1.0.51",
   "license": "MIT",
   "scripts": {
@@ -50,12 +50,12 @@
   },
   "dependencies": {
     "@antv/layout": "^0.1.22",
-    "@antv/x6": "^1.30.1",
-    "@antv/x6-react-components": "^1.1.15",
-    "@antv/x6-react-shape": "^1.5.2",
-    "@antv/xflow-core": "workspace:*",
-    "@antv/xflow-extension": "workspace:*",
-    "@antv/xflow-hook": "workspace:*"
+    "@digiforce-cloud/x6": "^1.30.1",
+    "@digiforce-cloud/x6-react-components": "^1.1.15",
+    "@digiforce-cloud/x6-react-shape": "^1.5.2",
+    "@digiforce-cloud/xflow-core": "workspace:*",
+    "@digiforce-cloud/xflow-extension": "workspace:*",
+    "@digiforce-cloud/xflow-hook": "workspace:*"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^20.0.0",

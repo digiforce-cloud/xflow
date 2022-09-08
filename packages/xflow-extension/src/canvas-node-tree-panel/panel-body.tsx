@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Tree, Empty, Popover } from 'antd'
 import { FolderFilled, FolderOpenFilled } from '@ant-design/icons'
-import type { Graph } from '@antv/x6'
-import { Addon } from '@antv/x6'
+import type { Graph } from '@digiforce-cloud/x6'
+import { Addon } from '@digiforce-cloud/x6'
 import type {
   NsTreePanelData,
   IProps,
@@ -10,8 +10,13 @@ import type {
   IOnFolderExpand,
   INodeFactoryArgs,
 } from './interface'
-import type { IModelService, IGraphCommandService, IGraphConfig, NsGraph } from '@antv/xflow-core'
-import { getNodeReactComponent, useXFlowApp, XFlowConstants } from '@antv/xflow-core'
+import type {
+  IModelService,
+  IGraphCommandService,
+  IGraphConfig,
+  NsGraph,
+} from '@digiforce-cloud/xflow-core'
+import { getNodeReactComponent, useXFlowApp, XFlowConstants } from '@digiforce-cloud/xflow-core'
 import { XFlowNode } from '../canvas-dag-extension/x6-extension/node'
 const { DirectoryTree, TreeNode } = Tree
 

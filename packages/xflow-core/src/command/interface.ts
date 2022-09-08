@@ -2,14 +2,14 @@
 import { Syringe } from 'mana-syringe'
 import type { Disposable, DisposableCollection } from '../common/disposable'
 // graph
-import type { Graph as X6Graph } from '@antv/x6'
+import type { Graph as X6Graph } from '@digiforce-cloud/x6'
 import type { IGraphConfig } from '../xflow-main/graph/config'
 // model
 import type { NsModel, RxModel } from '../common/rx-model'
 import type { IModelService } from '../model-service'
 // hooks
 import type { IHooks } from '../command-contributions/interface'
-import type { IRuntimeHook } from '@antv/xflow-hook/es/interface'
+import type { IRuntimeHook } from '@digiforce-cloud/xflow-hook/es/interface'
 import type { NsGraph } from '../interface'
 
 /**
@@ -235,7 +235,7 @@ export interface IArgsBase {
 export interface IGraphPipelineCommand<
   Args extends IArgsBase = any,
   Result = any,
-  ICmdHooks = IHooks
+  ICmdHooks = IHooks,
 > {
   commandId: string
   getCommandOption: (ctx: IContext<Args, Result, ICmdHooks>) => Promise<ICommandConfig<Args>>

@@ -1,5 +1,5 @@
-import type { GraphConfig } from '@antv/xflow-core'
-import { uuidv4 } from '@antv/xflow-core'
+import type { GraphConfig } from '@digiforce-cloud/xflow-core'
+import { uuidv4 } from '@digiforce-cloud/xflow-core'
 import { isNumber } from 'lodash'
 import { setProps, getProps } from '../flowchart-canvas/utils'
 import * as NodesComponent from './nodes'

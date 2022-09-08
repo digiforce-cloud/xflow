@@ -1,5 +1,5 @@
-import { uuidv4 } from '@antv/xflow'
-import { XFlowNodeCommands } from '@antv/xflow'
+import { uuidv4 } from '@digiforce-cloud/xflow'
+import { XFlowNodeCommands } from '@digiforce-cloud/xflow'
 import { DND_RENDER_ID } from './constant'
 import { Card } from 'antd'
 import React from 'react'
