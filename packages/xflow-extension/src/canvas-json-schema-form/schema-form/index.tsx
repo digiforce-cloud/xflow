@@ -99,7 +99,7 @@ export const SchemaForm: React.FC<Props> = props => {
                       defaultControlRender,
                     )
                     if (!ControlComponent) {
-                      console.error('未找到对应的控件:', shape)
+                      console.error('No corresponding control was found:', shape)
                       return null
                     }
                     return (

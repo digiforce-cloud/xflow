@@ -23,7 +23,7 @@ export const JsonSchemaFormMain: React.FC<IInternalProps> = props => {
       const changedFields = Object.entries(values).map(([key, val]) => {
         return { name: key, value: val } as FieldData
       })
-      const allFields = Object.entries(state.targetData).map(([key, val]) => {
+      const allFields = Object.entries(state.targetData || {}).map(([key, val]) => {
         return { name: key, value: val } as FieldData
       })
       const result = await formValueUpdateService({
