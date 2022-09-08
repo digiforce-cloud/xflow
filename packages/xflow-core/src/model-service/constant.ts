@@ -1,4 +1,4 @@
-import type { Node, Edge, CellView, Cell } from '@antv/x6'
+import type { Node, Edge, CellView, Cell } from '@digiforce-cloud/x6'
 import type { NsGraph } from '../interface'
 import type { Token } from '../common/types'
 import type { IModelService } from './interface'

@@ -1,9 +1,9 @@
-import type { IFormSchema } from '@antv/xflow'
-import type { NsGraph, NsGroupCmd } from '@antv/xflow'
+import type { IFormSchema } from '@digiforce-cloud/xflow'
+import type { NsGraph, NsGroupCmd } from '@digiforce-cloud/xflow'
 import React from 'react'
 import { Card, Form, Input, message, Button } from 'antd'
-import { usePanelContext, WorkspacePanel, FormBuilder, uuidv4 } from '@antv/xflow'
-import { XFlowGroupCommands } from '@antv/xflow'
+import { usePanelContext, WorkspacePanel, FormBuilder, uuidv4 } from '@digiforce-cloud/xflow'
+import { XFlowGroupCommands } from '@digiforce-cloud/xflow'
 import { GROUP_NODE_RENDER_ID, GROUP_COLLAPSED_SIZE } from './constant'
 export const width = 100
 export const height = 40

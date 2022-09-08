@@ -1,14 +1,14 @@
 import { inject, injectable, postConstruct } from 'mana-syringe'
-import type { Graph as X6Graph } from '@antv/x6'
-import { Node as X6Node } from '@antv/x6'
-import type { HookHub } from '@antv/xflow-hook'
+import type { Graph as X6Graph } from '@digiforce-cloud/x6'
+import { Node as X6Node } from '@digiforce-cloud/x6'
+import type { HookHub } from '@digiforce-cloud/xflow-hook'
 import isBoolean from 'lodash/isBoolean'
 import type { IHooks } from '../../hooks/interface'
 import { XFlowNodeCommands } from '../constant'
 import type { NsGraph } from '../../interface'
 import type { IContext, IArgsBase } from '../../command/interface'
 import { ICommandHandler, ICommandContextProvider } from '../../command/interface'
-import { ReactShape } from '@antv/x6-react-shape'
+import { ReactShape } from '@digiforce-cloud/x6-react-shape'
 
 type ICommand = ICommandHandler<NsUpdateNode.IArgs, NsUpdateNode.IResult, NsUpdateNode.ICmdHooks>
 

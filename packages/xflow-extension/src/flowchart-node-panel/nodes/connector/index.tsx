@@ -1,5 +1,5 @@
 import React from 'react'
-import type { NsGraph } from '@antv/xflow-core'
+import type { NsGraph } from '@digiforce-cloud/xflow-core'
 import { NODE_HEIGHT, NODE_WIDTH, NODE_PADDING, DefaultNodeConfig } from '../../constants'
 
 export const ConnectorNode: NsGraph.INodeRender = props => {

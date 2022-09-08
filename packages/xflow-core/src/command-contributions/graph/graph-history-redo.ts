@@ -1,5 +1,5 @@
 import { inject, injectable } from 'mana-syringe'
-import type { HookHub } from '@antv/xflow-hook'
+import type { HookHub } from '@digiforce-cloud/xflow-hook'
 import type { IHooks } from '../../hooks/interface'
 import type { IArgsBase } from '../../command/interface'
 import { ICommandHandler, ICommandContextProvider } from '../../command/interface'

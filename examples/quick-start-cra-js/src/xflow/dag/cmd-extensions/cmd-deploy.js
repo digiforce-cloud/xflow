@@ -1,5 +1,5 @@
-import { XFlowGraphCommands, ManaSyringe } from '@antv/xflow'
-import { ICommandContextProvider } from '@antv/xflow'
+import { XFlowGraphCommands, ManaSyringe } from '@digiforce-cloud/xflow'
+import { ICommandContextProvider } from '@digiforce-cloud/xflow'
 import { CustomCommands } from './constants'
 
 export const NsDeployDagCmd = {}

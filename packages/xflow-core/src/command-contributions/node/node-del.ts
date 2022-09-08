@@ -1,5 +1,5 @@
 import { inject, injectable } from 'mana-syringe'
-import { HookHub } from '@antv/xflow-hook'
+import { HookHub } from '@digiforce-cloud/xflow-hook'
 import type { NsGraph } from '../../interface'
 import type { IHooks } from '../../hooks/interface'
 import type { IArgsBase } from '../../command/interface'
@@ -8,7 +8,7 @@ import { XFlowEdgeCommands, XFlowNodeCommands } from '../constant'
 import { Disposable } from '../../common/disposable'
 import type { NsNodeCmd } from '../interface'
 
-import type { Model, Node } from '@antv/x6/es'
+import type { Model, Node } from '@digiforce-cloud/x6/es'
 import type { NsEdgeCmd } from '../edge'
 
 type ICommand = ICommandHandler<NsDelNode.IArgs, NsDelNode.IResult, NsDelNode.ICmdHooks>

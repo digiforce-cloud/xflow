@@ -1,4 +1,4 @@
-import { ICommandContextProvider, ManaSyringe } from '@antv/xflow'
+import { ICommandContextProvider, ManaSyringe } from '@digiforce-cloud/xflow'
 import { CustomCommands } from './constants'
 
 const { inject, injectable } = ManaSyringe

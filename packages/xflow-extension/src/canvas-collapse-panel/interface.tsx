@@ -1,13 +1,13 @@
-import type { Addon } from '@antv/x6'
+import type { Addon } from '@digiforce-cloud/x6'
 import type {
   IPosition,
   NsGraph,
   IModelService,
   MODELS,
   IGraphCommandService,
-} from '@antv/xflow-core'
+} from '@digiforce-cloud/xflow-core'
 import type React from 'react'
-import type { Node as X6Node } from '@antv/x6'
+import type { Node as X6Node } from '@digiforce-cloud/x6'
 
 /** panel 布局 */
 export interface ILayoutProps {

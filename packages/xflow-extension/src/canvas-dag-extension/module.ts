@@ -1,7 +1,7 @@
 import 'reflect-metadata'
 /** Application 扩展依赖 */
-import type { IExtensionModule } from '@antv/xflow-core'
-import { ManaSyringe } from '@antv/xflow-core'
+import type { IExtensionModule } from '@digiforce-cloud/xflow-core'
+import { ManaSyringe } from '@digiforce-cloud/xflow-core'
 import { DagHooksContribution } from './contributions/dag'
 import { QueryGraphStatusCommand } from './contributions/command'
 export * from './x6-extension/edge'

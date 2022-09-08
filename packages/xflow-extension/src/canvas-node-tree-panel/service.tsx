@@ -1,7 +1,11 @@
 import React from 'react'
 import uniqBy from 'lodash/uniqBy'
 import cloneDeep from 'lodash/cloneDeep'
-import type { IModelService, NsModelServiceCmd, IGraphCommandService } from '@antv/xflow-core'
+import type {
+  IModelService,
+  NsModelServiceCmd,
+  IGraphCommandService,
+} from '@digiforce-cloud/xflow-core'
 import {
   // utils
   Disposable,
@@ -12,7 +16,7 @@ import {
   createComponentModel,
   // commands
   XFlowModelCommands,
-} from '@antv/xflow-core'
+} from '@digiforce-cloud/xflow-core'
 
 import type { IProps, ITreeNode } from './interface'
 import { TREE_ROOT_ID } from './constants'

@@ -1,6 +1,6 @@
 import React from 'react';
-import type { NsGraph } from '@antv/xflow';
-import { useAppContext } from '@antv/xflow';
+import type { NsGraph } from '@digiforce-cloud/xflow';
+import { useAppContext } from '@digiforce-cloud/xflow';
 import { Tooltip } from 'antd';
 import './edge1.less';
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import type { IProps, IInternalProps, IPanelProps, ITriggerUpdate, FieldData } from './interface'
-import { useXflowPrefixCls } from '@antv/xflow-core'
+import { useXflowPrefixCls } from '@digiforce-cloud/xflow-core'
 import { PanelFooter } from './panel-footer'
 import { PanelHeader } from './panel-header'
 import { PanelBody } from './panel-body'
@@ -23,7 +23,7 @@ export const JsonSchemaFormMain: React.FC<IInternalProps> = props => {
       const changedFields = Object.entries(values).map(([key, val]) => {
         return { name: key, value: val } as FieldData
       })
-      const allFields = Object.entries(state.targetData).map(([key, val]) => {
+      const allFields = Object.entries(state.targetData || {}).map(([key, val]) => {
         return { name: key, value: val } as FieldData
       })
       const result = await formValueUpdateService({

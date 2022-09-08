@@ -1,6 +1,6 @@
 import { inject, injectable, postConstruct } from 'mana-syringe'
-import type { Node as X6Node, Edge as X6Edge } from '@antv/x6'
-import type { HookHub } from '@antv/xflow-hook'
+import type { Node as X6Node, Edge as X6Edge } from '@digiforce-cloud/x6'
+import type { HookHub } from '@digiforce-cloud/xflow-hook'
 import type { IContext, IArgsBase } from '../../command/interface'
 import { ICommandHandler, ICommandContextProvider } from '../../command/interface'
 import type { IHooks } from '../../hooks/interface'

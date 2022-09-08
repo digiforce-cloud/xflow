@@ -1,12 +1,12 @@
-import type { ICmdHooks } from '@antv/xflow-core'
+import type { ICmdHooks } from '@digiforce-cloud/xflow-core'
 import { singleton } from 'mana-syringe'
 import {
   DisposableCollection,
   Disposable,
   XFlowEdgeCommands,
   XFlowNodeCommands,
-} from '@antv/xflow-core'
-import { IHookContribution } from '@antv/xflow-core'
+} from '@digiforce-cloud/xflow-core'
+import { IHookContribution } from '@digiforce-cloud/xflow-core'
 import { NsAddEdgeEvent } from '../../config-graph'
 import { getProps } from '../../utils'
 
@@ -44,18 +44,6 @@ export class FlowHooksContribution implements IHookContribution<ICmdHooks> {
                   port: edgeConfig.targetPortId,
                 },
                 zIndex: 1,
-                attrs: {
-                  line: {
-                    stroke: '#A2B1C3',
-                    targetMarker: {
-                      name: 'block',
-                      width: 12,
-                      height: 8,
-                    },
-                    strokeDasharray: '5 5',
-                    strokeWidth: 1,
-                  },
-                },
                 data: { ...rest },
               },
             }

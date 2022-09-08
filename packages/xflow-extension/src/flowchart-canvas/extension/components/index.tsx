@@ -1,6 +1,6 @@
 import React from 'react'
-import type { IModuleConfig } from '@antv/xflow-core'
-import { useExtensionRegistry } from '@antv/xflow-core'
+import type { IModuleConfig } from '@digiforce-cloud/xflow-core'
+import { useExtensionRegistry } from '@digiforce-cloud/xflow-core'
 import { createFlowchartExtensionModule } from '../module'
 
 export const FlowchartExtension: React.FC<{}> = () => {

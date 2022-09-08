@@ -1,7 +1,7 @@
-import { ReactShape } from '@antv/x6-react-shape'
-import { Node } from '@antv/x6'
-import { X6_NODE_PORTAL_NODE_VIEW } from '@antv/xflow-core/es/constants'
-import { NsGraph } from '@antv/xflow-core/es/interface'
+import { ReactShape } from '@digiforce-cloud/x6-react-shape'
+import { Node } from '@digiforce-cloud/x6'
+import { X6_NODE_PORTAL_NODE_VIEW } from '@digiforce-cloud/xflow-core/es/constants'
+import { NsGraph } from '@digiforce-cloud/xflow-core/es/interface'
 
 export const XFLOW_NODE_SHAPE = 'XFLOW_NODE_SHAPE'
 

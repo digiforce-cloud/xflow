@@ -1,4 +1,4 @@
-import { createCmdConfig, DisposableCollection } from '@antv/xflow'
+import { createCmdConfig, DisposableCollection } from '@digiforce-cloud/xflow'
 import { MockApi } from './service'
 
 export const useCmdConfig = createCmdConfig(config => {

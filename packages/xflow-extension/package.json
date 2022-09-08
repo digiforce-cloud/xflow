@@ -1,7 +1,7 @@
 {
   "private": false,
-  "name": "@antv/xflow-extension",
-  "version": "1.0.49",
+  "name": "@digiforce-cloud/xflow-extension",
+  "version": "1.0.51",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist es lib",
@@ -38,8 +38,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@antv/xflow-core": "workspace:*",
-    "@antv/xflow-hook": "workspace:*",
+    "@digiforce-cloud/xflow-core": "workspace:*",
+    "@digiforce-cloud/xflow-hook": "workspace:*",
     "mana-syringe": "^0.2.2",
     "moment": "^2.29.1",
     "rc-field-form": "^1.22.0",
@@ -50,9 +50,9 @@
     "react": "^16.8.0  || ^17.0.0",
     "react-dom": "^16.8.0  || ^17.0.0",
     "antd": "^4.6.3",
-    "@antv/x6": "^1.30.1",
-    "@antv/x6-react-components": "^1.1.15",
-    "@antv/x6-react-shape": "^1.5.2",
+    "@digiforce-cloud/x6": "^1.30.1",
+    "@digiforce-cloud/x6-react-components": "^1.1.15",
+    "@digiforce-cloud/x6-react-shape": "^1.5.2",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@rollup/plugin-replace": "^3.0.0",
@@ -77,9 +77,9 @@
   },
   "peerDependencies": {
     "@ant-design/icons": "^4.6.0",
-    "@antv/x6": "^1.30.1",
-    "@antv/x6-react-components": "^1.1.15",
-    "@antv/x6-react-shape": "^1.2.5",
+    "@digiforce-cloud/x6": "^1.30.1",
+    "@digiforce-cloud/x6-react-components": "^1.1.15",
+    "@digiforce-cloud/x6-react-shape": "^1.2.5",
     "antd": "^4.6.3",
     "classnames": "^2.2.6",
     "react": "^16.8.0  || ^17.0.0",

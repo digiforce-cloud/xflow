@@ -1,5 +1,5 @@
-import type { NsGraph } from '@antv/xflow'
-import { uuidv4 } from '@antv/xflow'
+import type { NsGraph } from '@digiforce-cloud/xflow'
+import { uuidv4 } from '@digiforce-cloud/xflow'
 import { DND_NODE_RENDER_ID, GROUP_NODE_RENDER_ID, GROUP_COLLAPSED_SIZE } from './constant'
 
 // NodeConfig

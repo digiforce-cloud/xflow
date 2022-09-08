@@ -1,5 +1,5 @@
-import type { IModelService } from '@antv/xflow'
-import { createModelServiceConfig } from '@antv/xflow'
+import type { IModelService } from '@digiforce-cloud/xflow'
+import { createModelServiceConfig } from '@digiforce-cloud/xflow'
 
 export namespace NS_LOADING_STATE {
   export const id = 'test'

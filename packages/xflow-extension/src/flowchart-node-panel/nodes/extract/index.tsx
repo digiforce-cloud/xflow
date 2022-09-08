@@ -1,5 +1,5 @@
 import React from 'react'
-import type { NsGraph } from '@antv/xflow-core'
+import type { NsGraph } from '@digiforce-cloud/xflow-core'
 import { createPath } from '../../utils'
 import { NODE_WIDTH, NODE_HEIGHT, NODE_PADDING, DefaultNodeConfig } from '../../constants'
 

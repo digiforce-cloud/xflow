@@ -1,7 +1,7 @@
 import type { IPanelNode } from '../interface'
-import type { IGraphCommandService, IGraphConfig, IModelService } from '@antv/xflow-core'
+import type { IGraphCommandService, IGraphConfig, IModelService } from '@digiforce-cloud/xflow-core'
 import React from 'react'
-import { XFlowConstants } from '@antv/xflow-core'
+import { XFlowConstants } from '@digiforce-cloud/xflow-core'
 import { Popover } from 'antd'
 
 interface INodeRenderOptions {

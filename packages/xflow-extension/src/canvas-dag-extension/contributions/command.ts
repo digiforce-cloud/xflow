@@ -1,10 +1,15 @@
-import type { HookHub } from '@antv/xflow-hook'
-import type { IArgsBase } from '@antv/xflow-core'
-import type { IHooks } from '@antv/xflow-core'
-import { ManaSyringe, ICommandHandler, ICommandContextProvider, delay } from '@antv/xflow-core'
+import type { HookHub } from '@digiforce-cloud/xflow-hook'
+import type { IArgsBase } from '@digiforce-cloud/xflow-core'
+import type { IHooks } from '@digiforce-cloud/xflow-core'
+import {
+  ManaSyringe,
+  ICommandHandler,
+  ICommandContextProvider,
+  delay,
+} from '@digiforce-cloud/xflow-core'
 import { XFlowDagCommands, GRAPH_STATUS_INFO, EDGE_PROCESSING_CLASSNAME } from '../constants'
 
-import type { Graph as X6Graph, Node as X6Node } from '@antv/x6'
+import type { Graph as X6Graph, Node as X6Node } from '@digiforce-cloud/x6'
 
 type ICommand = ICommandHandler<
   NsGraphStatusCommand.IArgs,

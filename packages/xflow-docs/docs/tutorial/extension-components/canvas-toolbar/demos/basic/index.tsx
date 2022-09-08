@@ -3,11 +3,11 @@
  * desc: 通过position定位Toolbar,通过config属性配置toolbar, 查看toolbar-config.tsx文件了解如何配置toolbar
  */
 import React from 'react'
-import type { IAppLoad } from '@antv/xflow'
-import { XFlow, createGraphConfig, XFlowCanvas, CanvasToolbar } from '@antv/xflow'
+import type { IAppLoad } from '@digiforce-cloud/xflow'
+import { XFlow, createGraphConfig, XFlowCanvas, CanvasToolbar } from '@digiforce-cloud/xflow'
 import { useToolbarConfig } from './toolbar-config'
 import './index.less'
-import '@antv/xflow/dist/index.css'
+import '@digiforce-cloud/xflow/dist/index.css'
 /**  Demo Props  */
 export interface IDemoProps {
   anything: string

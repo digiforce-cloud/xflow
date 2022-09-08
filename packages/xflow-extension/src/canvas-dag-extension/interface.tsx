@@ -1,6 +1,6 @@
-import { ManaSyringe } from '@antv/xflow-core'
-import type { IExtensionModule } from '@antv/xflow-core'
-import type { Graph as X6Graph } from '@antv/x6'
+import { ManaSyringe } from '@digiforce-cloud/xflow-core'
+import type { IExtensionModule } from '@digiforce-cloud/xflow-core'
+import type { Graph as X6Graph } from '@digiforce-cloud/x6'
 
 /** 画布布局 */
 export enum LayoutEnum {

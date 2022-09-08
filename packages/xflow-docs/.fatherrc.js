@@ -5,12 +5,12 @@ export default {
     [
       'babel-plugin-import',
       {
-        libraryName: '@antv/x6-react-components',
+        libraryName: '@digiforce-cloud/x6-react-components',
         libraryDirectory: 'es',
         transformToDefaultImport: false,
         style: true,
       },
-      '@antv/x6-react-components',
+      '@digiforce-cloud/x6-react-components',
     ],
     [
       'babel-plugin-import',

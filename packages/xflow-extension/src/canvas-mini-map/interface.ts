@@ -1,4 +1,4 @@
-import type { Graph } from '@antv/x6'
+import type { Graph } from '@digiforce-cloud/x6'
 
 export interface IMinimapOptions {
   enabled?: boolean

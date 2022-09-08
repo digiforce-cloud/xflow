@@ -1,12 +1,17 @@
-import type { Graph } from '@antv/x6'
-import type { NsGraph } from '@antv/xflow-core'
+import type { Graph } from '@digiforce-cloud/x6'
+import type { NsGraph } from '@digiforce-cloud/xflow-core'
 import type { NsPanelData } from './service'
 import type { IProps, IFlowchartNode } from './interface'
 import type { ITreeNode } from '../canvas-node-tree-panel/interface'
 import React, { useCallback } from 'react'
 import { Empty, Collapse } from 'antd'
-import { Addon } from '@antv/x6'
-import { getNodeReactComponent, useXFlowApp, uuidv4, XFlowNodeCommands } from '@antv/xflow-core'
+import { Addon } from '@digiforce-cloud/x6'
+import {
+  getNodeReactComponent,
+  useXFlowApp,
+  uuidv4,
+  XFlowNodeCommands,
+} from '@digiforce-cloud/xflow-core'
 import { getProps } from '../flowchart-canvas/utils'
 import { NodeTitle, defaultNodeFactory } from '../canvas-node-tree-panel/panel-body'
 import { isArray } from 'lodash'
@@ -154,7 +159,7 @@ export const NodePanelBody: React.FC<IBodyProps> = props => {
       <div className={`${prefixClz}-body`}>
         <Collapse defaultActiveKey={defaultActiveKey} style={{ border: 'none' }}>
           {showOfficial && (
-            <Panel header="通用节点" key="official" style={{ border: 'none' }}>
+            <Panel header="General" key="official" style={{ border: 'none' }}>
               {!state.keyword && (
                 <div className={`${prefixClz}-official`}>{renderTree(officialNode)}</div>
               )}

@@ -1,4 +1,4 @@
-import type { NsGraph } from '@antv/xflow'
+import type { NsGraph } from '@digiforce-cloud/xflow'
 
 /** 实体数据模型 */
 export interface EntityModel {

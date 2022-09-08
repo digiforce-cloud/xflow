@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "xflow-quick-start-umi",
-  "version": "0.1.32",
+  "version": "0.1.33",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@ant-design/pro-layout": "^6.31.7",
-    "@antv/xflow": "workspace:*",
+    "@digiforce-cloud/xflow": "workspace:*",
     "react": "~17.0.2",
     "react-dom": "~17.0.2",
     "umi": "^3.5.20"

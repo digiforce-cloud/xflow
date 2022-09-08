@@ -1,6 +1,6 @@
-import type { IAppLoad, NsGraphCmd } from '@antv/xflow'
-import { createGraphConfig } from '@antv/xflow'
-import { XFlowGraphCommands } from '@antv/xflow'
+import type { IAppLoad, NsGraphCmd } from '@digiforce-cloud/xflow'
+import { createGraphConfig } from '@digiforce-cloud/xflow'
+import { XFlowGraphCommands } from '@digiforce-cloud/xflow'
 import { getGraphData } from './mock'
 
 export const onLoad: IAppLoad = async app => {

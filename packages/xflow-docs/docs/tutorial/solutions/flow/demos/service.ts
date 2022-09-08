@@ -1,6 +1,6 @@
 import { DND_RENDER_ID, NODE_WIDTH, NODE_HEIGHT } from './constant'
-import { uuidv4, NsGraph } from '@antv/xflow'
-import type { NsNodeCmd, NsEdgeCmd, NsGraphCmd } from '@antv/xflow'
+import { uuidv4, NsGraph } from '@digiforce-cloud/xflow'
+import type { NsNodeCmd, NsEdgeCmd, NsGraphCmd } from '@digiforce-cloud/xflow'
 
 /** mock 后端接口调用 */
 export namespace MockApi {

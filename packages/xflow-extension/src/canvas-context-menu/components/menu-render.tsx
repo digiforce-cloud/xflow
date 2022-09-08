@@ -5,13 +5,13 @@ import type {
   IMenuOptions,
   IModelService,
   IGraphCommandService,
-} from '@antv/xflow-core'
+} from '@digiforce-cloud/xflow-core'
 import {
   // app service
   IconStore,
-} from '@antv/xflow-core'
+} from '@digiforce-cloud/xflow-core'
 
-import { Menu } from '@antv/x6-react-components'
+import { Menu } from '@digiforce-cloud/x6-react-components'
 
 export interface IRenderProps {
   idx: number

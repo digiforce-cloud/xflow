@@ -6,7 +6,7 @@ import { disposableSubscribe } from '../../common/event-helper'
 import { IGraphProvider } from '../../xflow-main/graph/graph-provider'
 import * as MODELS from '../constant'
 
-import type { EventArgs } from '@antv/x6/lib/graph/events'
+import type { EventArgs } from '@digiforce-cloud/x6/lib/graph/events'
 
 @singleton({ contrib: IModelContribution })
 export class GraphModelContribution implements IModelContribution {

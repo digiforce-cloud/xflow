@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import type { NsNodeCmd, NsEdgeCmd, IMenuOptions, NsGraph } from '@antv/xflow'
+import type { NsNodeCmd, NsEdgeCmd, IMenuOptions, NsGraph } from '@digiforce-cloud/xflow'
 import type { NsRenameNodeCmd } from './cmd-extensions/cmd-rename-node-modal'
-import { createCtxMenuConfig, MenuItemType } from '@antv/xflow'
-import { IconStore, XFlowNodeCommands, XFlowEdgeCommands } from '@antv/xflow'
+import { createCtxMenuConfig, MenuItemType } from '@digiforce-cloud/xflow'
+import { IconStore, XFlowNodeCommands, XFlowEdgeCommands } from '@digiforce-cloud/xflow'
 import { DeleteOutlined, EditOutlined, StopOutlined } from '@ant-design/icons'
 import { CustomCommands } from './cmd-extensions/constants'
 import { MockApi } from './service'

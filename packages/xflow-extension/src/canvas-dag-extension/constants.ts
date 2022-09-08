@@ -1,6 +1,9 @@
-import type { DisposableCollection } from '@antv/xflow-core'
-import type { IGraphCommand } from '@antv/xflow-core'
-import { getModelUtil, useModelValueUtil } from '@antv/xflow-core/es/model-service/constant'
+import type { DisposableCollection } from '@digiforce-cloud/xflow-core'
+import type { IGraphCommand } from '@digiforce-cloud/xflow-core'
+import {
+  getModelUtil,
+  useModelValueUtil,
+} from '@digiforce-cloud/xflow-core/es/model-service/constant'
 
 export const EDGE_PATH_TYPE = {
   /** node 水平 */
@@ -53,6 +56,6 @@ export namespace XFlowDagCommands {
   //更新节点的状态
   export const QUERY_GRAPH_STATUS: IGraphCommand = {
     id: 'xflow:query-graph-status',
-    label: '查询画布节点状态',
+    label: 'Query graph status',
   }
 }

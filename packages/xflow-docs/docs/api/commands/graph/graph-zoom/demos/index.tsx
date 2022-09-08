@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 /** 图核心组件 & 类型定义 */
-import type { IAppLoad, NsGraph, IApplication, NsGraphCmd } from '@antv/xflow'
-import { XFlow, XFlowCanvas, createGraphConfig, XFlowGraphCommands } from '@antv/xflow'
+import type { IAppLoad, NsGraph, IApplication, NsGraphCmd } from '@digiforce-cloud/xflow'
+import { XFlow, XFlowCanvas, createGraphConfig, XFlowGraphCommands } from '@digiforce-cloud/xflow'
 import './index.less'
-import '@antv/xflow/dist/index.css'
+import '@digiforce-cloud/xflow/dist/index.css'
 
 export const useGraphConfig = createGraphConfig(config => {
   config.setX6Config({ grid: true })
@@ -33,7 +33,7 @@ const Demo: React.FC<{}> = () => {
   }
 
   const zoomGraph = (key: string) => {
-    if (key === '放大') {
+    if (key === 'Zoom In') {
       appRef.executeCommand(XFlowGraphCommands.GRAPH_ZOOM.id, {
         factor: 0.1,
         zoomOptions: {
@@ -43,7 +43,7 @@ const Demo: React.FC<{}> = () => {
         },
       } as NsGraphCmd.GraphZoom.IArgs)
     }
-    if (key === '缩小') {
+    if (key === 'Zoom Out') {
       appRef.executeCommand(XFlowGraphCommands.GRAPH_ZOOM.id, {
         factor: -0.1,
         zoomOptions: {
@@ -53,12 +53,12 @@ const Demo: React.FC<{}> = () => {
         },
       } as NsGraphCmd.GraphZoom.IArgs)
     }
-    if (key === '画布1:1(real)') {
+    if (key === 'Canvas 1:1 (real)') {
       appRef.executeCommand(XFlowGraphCommands.GRAPH_ZOOM.id, {
         factor: 'real',
       } as NsGraphCmd.GraphZoom.IArgs)
     }
-    if (key === '适应画布(fit)') {
+    if (key === 'Fit To Canvas (fit)') {
       appRef.executeCommand(XFlowGraphCommands.GRAPH_ZOOM.id, {
         factor: 'fit',
       } as NsGraphCmd.GraphZoom.IArgs)
@@ -81,7 +81,7 @@ const Demo: React.FC<{}> = () => {
       onLoad={onLoad}
     >
       <div className="toolbar">
-        {['放大', '缩小', '画布1:1(real)', '适应画布(fit)'].map(item => (
+        {['Zoom In', 'Zoom Out', 'Canvas 1:1 (real)', 'Fit To Canvas (fit)'].map(item => (
           <div key={item} className="div" onClick={() => zoomGraph(item)}>
             {item}
           </div>

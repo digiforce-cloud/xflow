@@ -1,5 +1,5 @@
-import type { NsGraph } from '@antv/xflow'
-import { uuidv4 } from '@antv/xflow'
+import type { NsGraph } from '@digiforce-cloud/xflow'
+import { uuidv4 } from '@digiforce-cloud/xflow'
 
 // NodeConfig
 const NODE_COMMON_PROPS = {

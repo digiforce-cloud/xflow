@@ -1,4 +1,4 @@
-import type { IAppLoad } from '@antv/xflow'
+import type { IAppLoad } from '@digiforce-cloud/xflow'
 import React, { useRef, useEffect } from 'react'
 /** 交互组件 */
 import {
@@ -24,8 +24,8 @@ import {
   CanvasSnapline,
   /** 通用组件：节点连接桩 */
   CanvasNodePortTooltip,
-} from '@antv/xflow'
-import type { Graph } from '@antv/x6'
+} from '@digiforce-cloud/xflow'
+import type { Graph } from '@digiforce-cloud/x6'
 /** 配置Command*/
 import { useCmdConfig } from './config-cmd'
 /** 配置Menu */

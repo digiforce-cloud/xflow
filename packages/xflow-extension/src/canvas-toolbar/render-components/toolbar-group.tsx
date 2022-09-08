@@ -1,9 +1,9 @@
 import React from 'react'
 import classnames from 'classnames'
-import { Toolbar } from '@antv/x6-react-components'
+import { Toolbar } from '@digiforce-cloud/x6-react-components'
 
-import type { IToolbarGroupOptions, IToolbarLayout } from '@antv/xflow-core'
-import { uuidv4 } from '@antv/xflow-core'
+import type { IToolbarGroupOptions, IToolbarLayout } from '@digiforce-cloud/xflow-core'
+import { uuidv4 } from '@digiforce-cloud/xflow-core'
 
 import { ToolbarItem } from './toolbar-item'
 

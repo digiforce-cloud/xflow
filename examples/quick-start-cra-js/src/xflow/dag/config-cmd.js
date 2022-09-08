@@ -1,4 +1,4 @@
-import { createCmdConfig, DisposableCollection, XFlowGraphCommands } from '@antv/xflow'
+import { createCmdConfig, DisposableCollection, XFlowGraphCommands } from '@digiforce-cloud/xflow'
 import { MockApi } from './service'
 import { commandContributions } from './cmd-extensions'
 
