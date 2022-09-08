@@ -31,7 +31,7 @@ export const NodePanelHeader: React.FC<IHeaderProps> = props => {
         {panelProps.searchService && (
           <div className={`${prefixClz}-header-search`}>
             <Input
-              placeholder="搜索组件"
+              placeholder="Search component"
               allowClear
               onChange={e => onChange(e)}
               style={{ width: '100%', border: 0 }}

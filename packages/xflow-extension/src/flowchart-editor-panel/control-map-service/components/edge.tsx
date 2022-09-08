@@ -107,37 +107,37 @@ const EdgeComponent = props => {
   return (
     <div className={`${PREFIX}-panel-body`}>
       <div className={`${PREFIX}-panel-group`}>
-        <h5>内容</h5>
+        <h5>Content</h5>
         <InputFiled
-          label="标签"
+          label="Label"
           value={edgeConfig.label}
           onChange={value => {
             onEdgeConfigChange('label', value)
           }}
         />
       </div>
-      <h5 style={{ marginBottom: 12 }}>样式</h5>
+      <h5 style={{ marginBottom: 12 }}>Style</h5>
       <div className={`${PREFIX}-panel-group`} style={{ marginBottom: 0 }}>
-        <h5>线</h5>
+        <h5>Line</h5>
         <SelectField
-          label="箭头"
+          label="Arrow"
           value={getArrowValue()}
           width="100%"
           options={[
             {
-              label: '正向',
+              label: 'Target',
               value: 'target',
             },
             {
-              label: '逆向',
+              label: 'Sourcce',
               value: 'source',
             },
             {
-              label: '双向',
+              label: 'All',
               value: 'all',
             },
             {
-              label: '无',
+              label: 'None',
               value: 'none',
             },
           ]}
@@ -148,16 +148,16 @@ const EdgeComponent = props => {
 
         <div className={`${PREFIX}-edge-stroke-style`}>
           <SelectField
-            label="线形"
+            label="Stroke"
             width={68}
             value={getSrokeDashValue()}
             options={[
               {
-                label: '实线',
+                label: 'Solid',
                 value: 'solid',
               },
               {
-                label: '虚线',
+                label: 'Dash',
                 value: 'dash',
               },
             ]}
@@ -174,7 +174,7 @@ const EdgeComponent = props => {
           />
         </div>
         <ColorPicker
-          label="边框"
+          label="Line Color"
           value={getAttrs('stroke')}
           onChange={(value: string) => {
             onEdgeConfigChange('stroke', value, 'line')
@@ -182,10 +182,10 @@ const EdgeComponent = props => {
         />
       </div>
       <div className={`${PREFIX}-panel-group`}>
-        <h5>标签</h5>
+        <h5>Label</h5>
         <div className={`${PREFIX}-edge-text-style`}>
           <InputNumberFiled
-            label="字号"
+            label="Font"
             min={10}
             width={68}
             value={getAttrs('fontSize', 'text') || 12}

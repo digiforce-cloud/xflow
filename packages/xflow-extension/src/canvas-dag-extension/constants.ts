@@ -53,6 +53,6 @@ export namespace XFlowDagCommands {
   //更新节点的状态
   export const QUERY_GRAPH_STATUS: IGraphCommand = {
     id: 'xflow:query-graph-status',
-    label: '查询画布节点状态',
+    label: 'Query graph status',
   }
 }
